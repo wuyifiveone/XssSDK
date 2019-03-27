@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00E33E422377B64002AC098 /* XsProxySDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F00E33E122377B64002AC098 /* XsProxySDK.h */; };
+		F00E33F022377C36002AC098 /* XsAppInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F00E33EF22377C36002AC098 /* XsAppInfo.m */; };
+		F00E340622377FEB002AC098 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00E340522377FEB002AC098 /* UICKeyChainStore.framework */; };
+		F00E340D22378379002AC098 /* UICKeyChainStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F00E340C22378378002AC098 /* UICKeyChainStore.framework */; };
+		F00E340E223792EB002AC098 /* XsProxySDK.m in Sources */ = {isa = PBXBuildFile; fileRef = F00E33E222377B64002AC098 /* XsProxySDK.m */; };
+		F00E341122379863002AC098 /* XsRoot.m in Sources */ = {isa = PBXBuildFile; fileRef = F00E341022379863002AC098 /* XsRoot.m */; };
+		F00E341522379F7D002AC098 /* XSPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F00E341422379F7D002AC098 /* XSPhotoManager.m */; };
+		F0B1E9F42238D2A9009B63CC /* PuHttpTools.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B1E9F32238D2A9009B63CC /* PuHttpTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F00E33DC22377B64002AC098 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F00E33E422377B64002AC098 /* XsProxySDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F00E33DE22377B64002AC098 /* libXsProxySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXsProxySDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00E33E122377B64002AC098 /* XsProxySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XsProxySDK.h; sourceTree = "<group>"; };
+		F00E33E222377B64002AC098 /* XsProxySDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XsProxySDK.m; sourceTree = "<group>"; };
+		F00E33EE22377C36002AC098 /* XsAppInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XsAppInfo.h; sourceTree = "<group>"; };
+		F00E33EF22377C36002AC098 /* XsAppInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XsAppInfo.m; sourceTree = "<group>"; };
+		F00E340522377FEB002AC098 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UICKeyChainStore.framework; path = ../UICKeyChainStore.framework; sourceTree = "<group>"; };
+		F00E340C22378378002AC098 /* UICKeyChainStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UICKeyChainStore.framework; sourceTree = "<group>"; };
+		F00E340F22379863002AC098 /* XsRoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XsRoot.h; sourceTree = "<group>"; };
+		F00E341022379863002AC098 /* XsRoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XsRoot.m; sourceTree = "<group>"; };
+		F00E341322379F7D002AC098 /* XSPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSPhotoManager.h; sourceTree = "<group>"; };
+		F00E341422379F7D002AC098 /* XSPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSPhotoManager.m; sourceTree = "<group>"; };
+		F0B1E9F22238D2A9009B63CC /* PuHttpTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuHttpTools.h; sourceTree = "<group>"; };
+		F0B1E9F32238D2A9009B63CC /* PuHttpTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuHttpTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00E33DB22377B64002AC098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00E340D22378379002AC098 /* UICKeyChainStore.framework in Frameworks */,
+				F00E340622377FEB002AC098 /* UICKeyChainStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F00E33D522377B64002AC098 = {
+			isa = PBXGroup;
+			children = (
+				F00E33E022377B64002AC098 /* XsProxySDK */,
+				F00E33DF22377B64002AC098 /* Products */,
+				F00E340422377FEB002AC098 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F00E33DF22377B64002AC098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00E33DE22377B64002AC098 /* libXsProxySDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F00E33E022377B64002AC098 /* XsProxySDK */ = {
+			isa = PBXGroup;
+			children = (
+				F0B1E9F12238D287009B63CC /* utils */,
+				F00E341222379F2F002AC098 /* functionalClass */,
+				F00E340A22378345002AC098 /* libs */,
+				F00E33EA22377B95002AC098 /* ClassFiles */,
+				F00E33E122377B64002AC098 /* XsProxySDK.h */,
+				F00E33E222377B64002AC098 /* XsProxySDK.m */,
+			);
+			path = XsProxySDK;
+			sourceTree = "<group>";
+		};
+		F00E33EA22377B95002AC098 /* ClassFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F00E33EE22377C36002AC098 /* XsAppInfo.h */,
+				F00E33EF22377C36002AC098 /* XsAppInfo.m */,
+				F00E340F22379863002AC098 /* XsRoot.h */,
+				F00E341022379863002AC098 /* XsRoot.m */,
+			);
+			path = ClassFiles;
+			sourceTree = "<group>";
+		};
+		F00E340422377FEB002AC098 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F00E340522377FEB002AC098 /* UICKeyChainStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F00E340A22378345002AC098 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				F00E340B22378362002AC098 /* UICkeychain */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		F00E340B22378362002AC098 /* UICkeychain */ = {
+			isa = PBXGroup;
+			children = (
+				F00E340C22378378002AC098 /* UICKeyChainStore.framework */,
+			);
+			path = UICkeychain;
+			sourceTree = "<group>";
+		};
+		F00E341222379F2F002AC098 /* functionalClass */ = {
+			isa = PBXGroup;
+			children = (
+				F00E341322379F7D002AC098 /* XSPhotoManager.h */,
+				F00E341422379F7D002AC098 /* XSPhotoManager.m */,
+			);
+			path = functionalClass;
+			sourceTree = "<group>";
+		};
+		F0B1E9F12238D287009B63CC /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				F0B1E9F22238D2A9009B63CC /* PuHttpTools.h */,
+				F0B1E9F32238D2A9009B63CC /* PuHttpTools.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F00E33DD22377B64002AC098 /* XsProxySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00E33E722377B64002AC098 /* Build configuration list for PBXNativeTarget "XsProxySDK" */;
+			buildPhases = (
+				F00E33DA22377B64002AC098 /* Sources */,
+				F00E33DB22377B64002AC098 /* Frameworks */,
+				F00E33DC22377B64002AC098 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XsProxySDK;
+			productName = XsProxySDK;
+			productReference = F00E33DE22377B64002AC098 /* libXsProxySDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F00E33D622377B64002AC098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "吴怿";
+				TargetAttributes = {
+					F00E33DD22377B64002AC098 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F00E33D922377B64002AC098 /* Build configuration list for PBXProject "XsProxySDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F00E33D522377B64002AC098;
+			productRefGroup = F00E33DF22377B64002AC098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F00E33DD22377B64002AC098 /* XsProxySDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F00E33DA22377B64002AC098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00E341122379863002AC098 /* XsRoot.m in Sources */,
+				F00E340E223792EB002AC098 /* XsProxySDK.m in Sources */,
+				F00E33F022377C36002AC098 /* XsAppInfo.m in Sources */,
+				F0B1E9F42238D2A9009B63CC /* PuHttpTools.m in Sources */,
+				F00E341522379F7D002AC098 /* XSPhotoManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F00E33E522377B64002AC098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F00E33E622377B64002AC098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00E33E822377B64002AC098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"${PROJECT_DIR}",
+					"$(PROJECT_DIR)/XsProxySDK/libs/UICkeychain",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F00E33E922377B64002AC098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"${PROJECT_DIR}",
+					"$(PROJECT_DIR)/XsProxySDK/libs/UICkeychain",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00E33D922377B64002AC098 /* Build configuration list for PBXProject "XsProxySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00E33E522377B64002AC098 /* Debug */,
+				F00E33E622377B64002AC098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00E33E722377B64002AC098 /* Build configuration list for PBXNativeTarget "XsProxySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00E33E822377B64002AC098 /* Debug */,
+				F00E33E922377B64002AC098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F00E33D622377B64002AC098 /* Project object */;
+}
